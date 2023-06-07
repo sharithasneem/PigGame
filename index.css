@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 150%;
+  box-sizing: border-box;
+}
+body {
+  color: #333;
+  background-image: linear-gradient(to right, #656365ef 0%, #863160 100%);
+}
+main {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  top: 1.5rem;
+  left: 5rem;
+  width: 40rem;
+  border-radius: 20px;
+  justify-content: center;
+  box-shadow: 2rem 0rem 5rem rgba(5, 5, 5, 0.885);
+}
+.player {
+  width: 50%;
+  align-items: center;
+  transition: all 0.75;
+}
+.name {
+  font-family: "Courier New", Courier, monospace;
+  font-style: bold;
+  position: relative;
+  left: 6rem;
+  top: 1.5rem;
+  color: rgba(16, 15, 15, 0.83);
+}
+.score {
+  position: relative;
+  left: 8rem;
+  top: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.858);
+}
+.player_0 {
+  height: 20rem;
+}
+.player_1 {
+  position: relative;
+  width: 50%;
+  height: 20rem;
+}
+.play_active {
+  background-color: rgba(255, 255, 255, 0.492);
+}
+.play_active .current {
+  background-color: #edececdf;
+  border-style: solid;
+}
+.current {
+  position: relative;
+  left: 4.5rem;
+  top: 6rem;
+  width: 10rem;
+  height: 4rem;
+  background-color: #edecec9c;
+  border-radius: 15px;
+}
+.currentValue {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.858);
+  margin-left: 4rem;
+}
+.currentText {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.858);
+  margin-left: 2.5rem;
+}
+.btn {
+  position: absolute;
+  left: 50%;
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #edecec7c;
+  text-align: center;
+}
+.btn_reset {
+  top: 3rem;
+}
+.btn_rollDice {
+  top: 12rem;
+}
+.btn_hold {
+  top: 14rem;
+}
+.btn:hover {
+  background-color: #edecec;
+}
+.imageDice {
+  position: absolute;
+  top: 6rem;
+  width: 100px;
+}
