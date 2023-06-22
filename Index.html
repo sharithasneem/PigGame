@@ -14,23 +14,25 @@
     <main>
         <section class="player player_0 play_active">
             <h1 class="name" id="name_0">Player 1</h1>
-            <p class="score" id="score0">
-                <span style="font-size:1cm;margin-top:-10px;color:white;margin-left: -10px;">Score<br>
-                </span>30
+            <p class="score score0">
+                <span style=" font-size:1cm;margin-top:-10px;color:white;margin-left: -10px;">Score<br>
+                </span>
+                <span id="score0">00</span>
             </p>
-            <div class="current currentScore0">
-                <h1 class="currentValue" id="current">10</h1>
+            <div class=" current currentScore0">
+                <h1 class="currentValue currentValue0" id="current">00</h1>
                 <h3 class=" currentText">Current Value</h3>
             </div>
         </section>
         <section class="player player_1 ">
             <h1 class="name" id="name_1">Player 2</h1>
-            <p class="score" id="score1">
-                <span style="font-size:1cm;margin-top:-10px;color:white;margin-left: -10px;">Score<br>
-                </span>20
+            <p class="score score1">
+                <span style=" font-size:1cm;margin-top:-10px;color:white;margin-left: -10px;">Score<br>
+                </span>
+                <span id="score1">00</span>
             </p>
-            <div class="current currentScore1">
-                <h1 class="currentValue" id="current">10</h1>
+            <div class=" current currentScore1">
+                <h1 class="currentValue currentValue1" id="current">00</h1>
                 <h3 class=" currentText">Current Value</h3>
             </div>
         </section>
@@ -38,7 +40,28 @@
         <button class="btn btn_reset">🔄 New Game</button>
         <button class="btn btn_rollDice">🎲 Roll Dice</button>
         <button class="btn btn_hold">📥 Hold</button>
+        <label class="messageBox">
+            <span class=" closeTag tag1">x</span>
+            <span class=messageText></span>
+        </label>
+        <label class="GameRules">
+            <span class="closeTag tag2">x</span>
+            <span class="ruleText">Rules<br>
+            </span>
+            <span class="ruleText2">• The First one to
+                <span style=" color:rgb(87, 216, 87);font-size:larger;font-weight:bold">
+                    score 50
+                </span>
+                wins
+                the
+                game.<br>
+            </span>
+            <span class="ruleText2">• If the Player rolls Dice one then he/she loses their score.<br> </span>
+            <span class="ruleText2">•In order to save their score, players are expected to hold and pass
+                the &nbsp;&nbsp;&nbsp;&nbsp; dice to the opposing player.</span>
+        </label>
     </main>
+    <script type=" text/javascript" src="index.js"></script>
 </body>
 
 </html>

@@ -10,6 +10,9 @@ body {
   color: #333;
   background-image: linear-gradient(to right, #656365ef 0%, #863160 100%);
 }
+.won {
+  background-image: linear-gradient(to right, #599256ef 0%, #3b8631 100%);
+}
 main {
   position: relative;
   overflow: hidden;
@@ -88,7 +91,7 @@ main {
   cursor: pointer;
   transition: all 0.2s;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 50;
   background-color: #edecec7c;
   text-align: center;
 }
@@ -108,4 +111,56 @@ main {
   position: absolute;
   top: 6rem;
   width: 100px;
+}
+.messageBox {
+  position: absolute;
+  top: 4cm;
+  left: auto;
+  width: 450px;
+  height: 150px;
+  background-color: white;
+  opacity: 90%;
+  font-size: larger;
+  display: none;
+}
+.messageText {
+  color: green;
+  display: block;
+  margin: 0px;
+  margin-left: 100px;
+  align-items: center;
+}
+.closeTag {
+  display: block;
+  margin-left: 409px;
+  margin-top: 8px;
+  background-color: rgb(222, 213, 213);
+  width: 26px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.GameRules {
+  position: absolute;
+  top: 4cm;
+  width: 550px;
+  height: 250px;
+  background-color: #fff;
+  opacity: 95%;
+  font-size: larger;
+  border-radius: 5px;
+  color: white;
+  display: block;
+}
+.tag2 {
+  margin-left: 500px;
+}
+.ruleText {
+  margin-left: 240px;
+  color: #252525;
+  font-size: 25px;
+}
+.ruleText2 {
+  margin-left: 20px;
+  color: #863160;
+  font-size: 18px;
 }
